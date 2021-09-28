@@ -17,4 +17,5 @@ model Project {
   published Boolean @default(false)
   url String
   tags String[]
+  theme String @default("")
 }
