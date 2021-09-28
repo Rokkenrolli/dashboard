@@ -30,8 +30,8 @@
   .card:hover,
   .card:focus,
   .card:active {
-    color: var(--highlight-color,#eaeaea);
-    border-color: var(--highlight-color,#eaeaea);
+    color: var(--highlight-color,black);
+    border-color: var(--highlight-color,black);
   }
   
   .card h2 {
@@ -49,3 +49,6 @@
     --highlight-color: #5318c2;
   }
   
+  .yellow {
+    --highlight-color: rgb(235, 235, 98);
+  }

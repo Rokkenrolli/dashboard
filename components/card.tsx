@@ -4,7 +4,7 @@ import styles from '../styles/Card.module.css'
 
 export const Card:React.FC<Project> = (project) => {
 
-return <div className={classNames(styles.card,{[styles.purple]:true})}>
+return <div className={classNames(styles.card, project.theme)}>
           <a href={project.url} >
             <h2>{project.title}</h2>
             <p>{project.description}</p>
