@@ -22,13 +22,13 @@ const Home: NextPage = ({projects}: InferGetStaticPropsType<typeof getStaticProp
         </h1>
 
 
-        {(projects as Project[]).map((project) => {
+        {(projects as Project[]).map((project,index) => {
           return(
-          <Card {...project} />
+          <Card key={index} {...project} />
           )
         })}
         
-        <Card id={0} title={'About Me'} description={'Here you will more about me'} published={true} url={'me'} tags={["dev","info", "hello :)"]} />
+        <Card id={-1} title={'About Me'} description={'Here you will more about me'} published={true} url={'me'} tags={["dev","info", "hello :)"]} />
       </main>
 
     </div>
