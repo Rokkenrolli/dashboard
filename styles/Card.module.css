@@ -31,7 +31,7 @@
   .card:focus,
   .card:active {
     color: var(--highlight-color,black);
-    border-color: var(--highlight-color,black);
+    border-color: var(--highlight-border-color,black);
   }
   
   .card h2 {
@@ -47,8 +47,10 @@
 
   .purple {
     --highlight-color: #5318c2;
+    --highlight-border-color: #5318c2;
   }
   
   .yellow {
     --highlight-color: rgb(172, 172, 19);
+    --highlight-border-color: rgb(235, 235, 30);
   }
