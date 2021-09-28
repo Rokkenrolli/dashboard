@@ -28,7 +28,7 @@ const Home: NextPage = ({projects}: InferGetStaticPropsType<typeof getStaticProp
           )
         })}
         
-        <Card id={-1} title={'About Me'} description={'Here you will more about me'} published={true} url={'me'} tags={["dev","info", "hello :)"]} />
+        <Card id={-1} title={'About Me'} description={'Here you will learn more about me'} published={true} url={'me'} tags={["dev","info", "hello :)"]} />
       </main>
 
     </div>
